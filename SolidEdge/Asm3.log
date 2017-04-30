@@ -1,0 +1,32 @@
+Conversione file Solid Edge in STEP
+Data: domenica,aprile 30,2017 03 :26
+File sorgente: C:\Users\Mirco\Desktop\SPACE APPS CHALLENGE\stazione drone\Asm3.stp
+Autore: Sconosciuto
+Organizzazione: Sconosciuto
+Sistema sorgente: Sconosciuto
+
+Hardware:
+Processore: Intel(R) Core(TM) i7-2630QM CPU @ 2.00GHz
+Sistema operativo: Windows 7 Home Service Pack 1
+Memoria installata: 3.91 GB
+
+Informazioni sul software
+Versione di Parasolid: 26.0.169
+Versione PSBodyShop: 16.1.150
+Versione Translator: 16.42.0
+Versione Solid Edge: 106.00.02.05
+
+Opzioni di esportazione STEP
+Esporta AP214: Off
+Esporta lamiere costruzione: On
+Esporta corpi costruzione: On
+Esporta cavi costruzione: Off
+Esporta solo parti visualizzate: Off
+Converti corpi solidi come Corpi solidi di Classe VI: On
+Unità esportazione: Millimetri
+Formato assieme dell'articolo mappato: On
+
+Fase 1 di 1 Conversione dati Parasolid in tipi di dati esterni...
+Processo di conversione completato
+Tempo necessario per la conversione:00 : 00 : 03
+Scrittura file convertito...
