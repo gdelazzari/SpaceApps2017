@@ -8,10 +8,10 @@ This is our project for the [And YOU can Help Fight Fires!](https://2017.spaceap
 
 You can check out the main project page on the NASA Space Apps CMS [at this link](https://2017.spaceappschallenge.org/challenges/warning-danger-ahead/and-you-can-help-fight-fires/teams/shc/project).
 
-### Description
+### General description
 Every year there are a lot of wild fires in the world, and they cause a lot of damage (in term of deaths and economic loss). Take a look [here](http://www.nfpa.org/news-and-research/fire-statistics-and-reports/fire-statistics/fires-in-the-us) for example.
 
-We developed a system that takes into consideration both user alerts (made through a mobile app) and signals from an "insight system" (that uses data like fire risk maps, weather data, custom sensors data, historical data, etc...) to manage a drone swarm capable of autonomously flying over the interested area and capturing real-time imagery of the fire, which is then processed with a computer vision algorithm to generate a live "fire/smoke size & spreading map".
+We developed a system that takes into consideration both user alerts (made through a mobile app) and signals from an "insight system" (that uses data like [fire risk maps](http://forest.jrc.ec.europa.eu/effis/applications/global-viewer/), weather data, custom sensors data, historical data, etc...) to manage a drone swarm capable of autonomously flying over the interested area and capturing real-time imagery of the fire, which is then processed with a computer vision algorithm to generate a live "fire/smoke size & spreading map".
 
 ![](https://github.com/gdelazzari/SpaceApps2017/raw/master/Images/fire_map.jpg)
 
@@ -19,9 +19,9 @@ Once you have this real-time representation of the phenomenon, you can alert the
 
 Another bonus feature is that, combining with wind data from weather stations or custom wind sensors deployed near the area, you can predict the direction of the smoke and ash and then alert nearby cities about the danger.
 
-Also, with a system like this, a fire can be detected within tents of minutes instead of hours (satellite live fire data sometimes has a latency of more than 3 hours **[insert source here]**), thanks to the insight system that, even without a user report, is capable of guessing if something is happening thanks to temperature/thermal sensors that can be deployed in the area. Or, even without this kind of data, the system can plan timed drone patrols based on the calculated risk for that particular moment of year/month/day, all of this taking in consideration the battery life of the drones and leaving enough in case of user reports that require an instant patrol flight.
+Also, with a system like this, a fire can be detected within tents of minutes instead of hours (satellite live fire data has a latency up to 3 hours - [source](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms)), thanks to the insight system that, even without a user report, is capable of guessing if something is happening thanks to temperature/thermal sensors that can be deployed in the area. Or, even without this kind of data, the system can plan timed drone patrols based on the calculated risk for that particular moment of year/month/day, all of this taking in consideration the battery life of the drones and leaving enough in case of user reports that require an instant patrol flight.
 
-The system is also expandable and could be used, for example, to report the live status of a volcanic eruption or an avalanche/flood, or maybe to find lost people in the area.
+The system is also expandable and could be used, for example, to report the live status of a volcanic eruption or an avalanche/flood, or maybe to find lost people in the area. The input data for the insight system is also flexible, in the sense that you can, for example, add more sources like Twitter or other social networks to trigger the drones when someone makes a tweet or a post about a fire that has started. You can also use custom sensors based on the scenario: for instance, if you have a forest under an high hill, you can place a thermal camera on the top of the hill to instantly detect any flame.
 
 ### Drones and stations
 ![](https://github.com/gdelazzari/SpaceApps2017/raw/master/Images/drone.png "Drone with base solar station")
@@ -47,3 +47,10 @@ Anyway, that was just to prove that a live image analysis to obtain a "fire map"
 The app that everyone will be able to download will be really simple to use, and will show a map that lets you select the location where you spotted the fire and send an alert. You can also view the fire risk map so you know you must be careful in a certain area (a *"Warning, you are in a fire risk area"* alert is also possible).
 
 Besides that, in the event of a nearby fire, as soon as the drones start to report live data of the phenomenon, the analyzed representation of the flames and the smoke is showed in real time so the people can find the best way out and/or prepare themself in case of smoke and ash coming in their direction.
+
+### Sources
++ [US Fire Statistics](http://www.nfpa.org/news-and-research/fire-statistics-and-reports/fire-statistics/fires-in-the-us)
++ [Global Wildfire Information System](http://forest.jrc.ec.europa.eu/effis/applications/global-viewer/)
++ [NASA's Fire Information for Resource Management System](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms)
++ [(YouTube) Autonomous drone landing on a moving platform](https://www.youtube.com/watch?v=XpUdW_U2KJ8)
++ [(YouTube) Autonomous drone landing on a recharge station](https://www.youtube.com/watch?v=061Qhkr7XCE)
