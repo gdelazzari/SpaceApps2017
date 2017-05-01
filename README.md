@@ -44,7 +44,7 @@ You can find the code used for the demo in the NeuralNetwork directory. For our 
 Anyway, that was just to prove that a live image analysis to obtain a "fire map" is totally possible.
 
 ### Mobile app
-![](https://github.com/gdelazzari/SpaceApps2017/raw/master/Images/app.jpg)
+<img align="right" src="https://github.com/gdelazzari/SpaceApps2017/raw/master/Images/app.jpg">
 
 The app that everyone will be able to download will be really simple to use, and will show a map that lets you select the location where you spotted the fire and send an alert. You can also view the fire risk map so you know you must be careful in a certain area (a *"Warning, you are in a fire risk area"* alert is also possible). Above you can see a mockup we've made using MIT AppInventor
 
@@ -65,3 +65,4 @@ Here you will find most of the work we've done to show our concept. The work is 
 + **Images** contains the images shown in this page
 + **NeuralNetwork** contains the .C programs used to train and generate the video overlay with a Neural Network
 + **SolidEdge** contains all the 3D CAD files for the base station and the drone that were designed using Siemens's Solid Edge
++ **Android App** contains a file you can import with MIT's AppInventor, which is our app mockup used for the demo
