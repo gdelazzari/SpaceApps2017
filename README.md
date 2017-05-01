@@ -39,16 +39,18 @@ The live video stream captured by a drone during a fire can quite easly be proce
 + nature (**green**, grass/trees/etc: areas still untouched by the fire but flammable)
 + sky
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GgVrd8o5Z40" frameborder="0" allowfullscreen></iframe>
+
 You can find the code used for the demo in the NeuralNetwork directory. For our demo a NN was probably overkill, since we could just have used a simpler classifier (maybe with the average color of the 8x8 cell)... but a neural networks are *cool*, so why not.
 
 Anyway, that was just to prove that a live image analysis to obtain a "fire map" is totally possible.
 
 ### Mobile app
-<img align="right" src="https://github.com/gdelazzari/SpaceApps2017/raw/master/Images/app.jpg">
+<img align="right" style="margin-left: 16px" src="https://github.com/gdelazzari/SpaceApps2017/raw/master/Images/app.jpg">
 
 The app that everyone will be able to download will be really simple to use, and will show a map that lets you select the location where you spotted the fire and send an alert. You can also view the fire risk map so you know you must be careful in a certain area (a *"Warning, you are in a fire risk area"* alert is also possible). Above you can see a mockup we've made using MIT AppInventor
 
-Besides that, in the event of a nearby fire, as soon as the drones start to report live data of the phenomenon, the analyzed representation of the flames and the smoke is showed in real time so the people can find the best way out and/or prepare themself in case of smoke and ash coming in their direction.
+Besides that, in the event of a nearby fire, as soon as the drones start to report live data of the phenomenon, all the users that are located near the danger are alerted with a notification/sound alarm and the analyzed representation of the flames and the smoke is showed in real time so everyone can find the best way out and/or prepare themself in case of smoke and ash coming in their direction.
 
 ### Sources
 + [US Fire Statistics](http://www.nfpa.org/news-and-research/fire-statistics-and-reports/fire-statistics/fires-in-the-us)
