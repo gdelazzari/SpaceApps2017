@@ -39,7 +39,9 @@ The live video stream captured by a drone during a fire can quite easly be proce
 + nature (**green**, grass/trees/etc: areas still untouched by the fire but flammable)
 + sky
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GgVrd8o5Z40" frameborder="0" allowfullscreen></iframe>
+Click on the image below to open a [YouTube video](https://www.youtube.com/watch?v=GgVrd8o5Z40) showing a quick demo of the neural network working on a 10 seconds video
+
+[![demo video](https://img.youtube.com/vi/GgVrd8o5Z40/0.jpg)](https://www.youtube.com/watch?v=GgVrd8o5Z40)
 
 You can find the code used for the demo in the NeuralNetwork directory. For our demo a NN was probably overkill, since we could just have used a simpler classifier (maybe with the average color of the 8x8 cell)... but a neural networks are *cool*, so why not.
 
