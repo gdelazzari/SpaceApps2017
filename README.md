@@ -44,7 +44,9 @@ You can find the code used for the demo in the NeuralNetwork directory. For our 
 Anyway, that was just to prove that a live image analysis to obtain a "fire map" is totally possible.
 
 ### Mobile app
-The app that everyone will be able to download will be really simple to use, and will show a map that lets you select the location where you spotted the fire and send an alert. You can also view the fire risk map so you know you must be careful in a certain area (a *"Warning, you are in a fire risk area"* alert is also possible).
+![](https://github.com/gdelazzari/SpaceApps2017/raw/master/Images/app.jpg)
+
+The app that everyone will be able to download will be really simple to use, and will show a map that lets you select the location where you spotted the fire and send an alert. You can also view the fire risk map so you know you must be careful in a certain area (a *"Warning, you are in a fire risk area"* alert is also possible). Above you can see a mockup we've made using MIT AppInventor
 
 Besides that, in the event of a nearby fire, as soon as the drones start to report live data of the phenomenon, the analyzed representation of the flames and the smoke is showed in real time so the people can find the best way out and/or prepare themself in case of smoke and ash coming in their direction.
 
@@ -54,3 +56,12 @@ Besides that, in the event of a nearby fire, as soon as the drones start to repo
 + [NASA's Fire Information for Resource Management System](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms)
 + [(YouTube) Autonomous drone landing on a moving platform](https://www.youtube.com/watch?v=XpUdW_U2KJ8)
 + [(YouTube) Autonomous drone landing on a recharge station](https://www.youtube.com/watch?v=061Qhkr7XCE)
+
+## This repository
+
+Here you will find most of the work we've done to show our concept. The work is divided into the various folders:
+
++ **Blender** contains all the blender files and textures used to make the 3D animation
++ **Images** contains the images shown in this page
++ **NeuralNetwork** contains the .C programs used to train and generate the video overlay with a Neural Network
++ **SolidEdge** contains all the 3D CAD files for the base station and the drone that were designed using Siemens's Solid Edge
