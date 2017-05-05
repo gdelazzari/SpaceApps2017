@@ -3,6 +3,15 @@ Repository for our NASA Space Apps 2017 project
 
 ![](https://github.com/gdelazzari/SpaceApps2017/raw/master/Images/project.png)
 
+## The team
+We are a group of four 19 years old, italian high-school students, with a lot of passion for ICT, electronics, mechanics and all this techy stuff.
+
+We are
++ Giacomo De Lazzari (who is also interested a lot in machine learning)
++ Damiano Tessaro (the electronics guy)
++ Mirco Zenere (our mechanical designer)
++ Cristian Marchetto (our app developer)
+
 ## The project
 This is our project for the [And YOU can Help Fight Fires!](https://2017.spaceappschallenge.org/challenges/warning-danger-ahead/and-you-can-help-fight-fires/details) challenge in the *Warning! Danger Ahead!* category.
 
