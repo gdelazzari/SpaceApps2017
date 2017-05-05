@@ -69,4 +69,4 @@ Here you will find most of the work we have done to show our concept. The work h
 + **Images** contains the images shown in this page
 + **NeuralNetwork** contains the .C programs used to train and generate the video overlay with a Neural Network
 + **SolidEdge** contains all the 3D CAD files for the base station and the drone that were designed using Siemens's Solid Edge
-+ **Android App** contains a file you can import with MIT's AppInventor, which is our app mockup used for the demo
++ **Android App** contains a file you can import with MIT's AppInventor, which is the app mockup we used for the demo
