@@ -20,5 +20,7 @@ You can then use the `compilevideo.sh` script to generate an MP4 video from the 
 
 Also note that there are a lot of `#define` directives you'll probably want to change, mainly for the number of frames you have but also for the number of samples to generate from each training image, etc...
 
-This is an example `_target.jpg` image file used to train the network on a specific frame:
-![](https://github.com/gdelazzari/SpaceApps2017/raw/master/Images/nn_target_example.jpg)
+### Notes
++ This is an example `_target.jpg` image file used to train the network on a specific frame: ![](https://github.com/gdelazzari/SpaceApps2017/raw/master/Images/nn_target_example.jpg)
+
++ The C programming is awful, I know, but I really was in a hurry. Everything was made in probably 2 to 3 hours.
