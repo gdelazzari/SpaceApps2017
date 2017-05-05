@@ -17,7 +17,7 @@ We developed a system that takes into consideration both user alerts (made throu
 
 Once you have this real-time representation of the phenomenon, you can alert the users in the area and show them (through the mobile app) the forecasted fire spread in real time, so they can figure out the best way outs. But, most important, the live data can be used by the firefighters to arrive prepared, choosing the best vehicles and tools to extinguish the fire and therefore optimizing their resources (which leads to an economic benefit).
 
-Another bonus feature is that combining wind data from weather stations or custom wind sensors deployed in the surrounding area, the smoke and ash direction can be predicted and nearby cities can be timely alerted about the danger.
+Another bonus feature is that combining wind data from weather stations or custom wind sensors deployed in the surrounding area (and maybe also on the drone stations themselves), the smoke and ash direction can be predicted and nearby cities can be timely alerted about the danger.
 
 Moreover, a system like this allows a fire to be detected within minutes instead of hours (satellite live fire data has a latency up to 3 hours - [source](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms)). This is feasible, owing to the insight system which, even without a user report, is capable of guessing if something is happening thanks to temperature/thermal sensors that can be deployed in the area. Or, even without this kind of data, the system can plan timed drone patrols based on the calculated risk for that particular moment of year/month/day, all of this taking into consideration the battery life of the drones and leaving enough in case of user reports that require an instant patrol flight.
 
@@ -39,7 +39,7 @@ The live video stream captured by a drone during a fire can quite easly be proce
 + nature (**green**, grass/trees/etc: areas still untouched by the fire but flammable)
 + sky
 
-Click on the image below to open a [YouTube video](https://www.youtube.com/watch?v=GgVrd8o5Z40) showing a quick demo of the neural network working on a 10 seconds video
+Click on the image below to open a [YouTube video](https://www.youtube.com/watch?v=GgVrd8o5Z40) showing a quick demo of our neural network working on a 10 seconds video
 
 [![demo video](https://img.youtube.com/vi/GgVrd8o5Z40/0.jpg)](https://www.youtube.com/watch?v=GgVrd8o5Z40)
 
