@@ -26,7 +26,7 @@
 
 #define PIXEL(i, w, h, x, y)    ((unsigned char*) (i + (((y) * (w) * (N)) + ((x) * (N)))))
 
-unsigned char* crop(unsigned char* image, int sx, int sy, int w, int h, unsigned char* result) {
+void crop(unsigned char* image, int sx, int sy, int w, int h, unsigned char* result) {
   for (int x = sx; x < (sx + w); x++) {
     for (int y = sy; y < (sy + h); y++) {
       for (int c = 0; c < 3; c++) {
@@ -41,10 +41,6 @@ int main()
 	struct fann *ann = fann_create_from_file("network.net");
 
   printf("Searching for frames\n");
-
-  int count = 0;
-
-  int target[CELLS_PER_FRAME * FRAME_NUM];
 
   for (int i = 0; i < FRAME_NUM; i++) {
     printf("[FRAME %d]\n", i);
@@ -78,22 +74,31 @@ int main()
       	float* out = fann_run(ann, input);
 
         uint8_t color[3] = {0, 0, 0};
-        if (out[0] >= 0.5) {
+        int target = 0;
+        float max = -2.f;
+        for (int j = 0; j < 4; j++) {
+          if (out[j] > max) {
+            max = out[j];
+            target = j;
+          }
+        }
+
+        if (target == 0) {
           color[0] = 128;
           color[1] = 128;
           color[2] = 128;
         }
-        if (out[1] >= 0.5) {
+        if (target == 1) {
           color[0] = 255;
           color[1] = 64;
           color[2] = 0;
         }
-        if (out[2] >= 0.5) {
+        if (target == 2) {
           color[0] = 64;
           color[1] = 0;
           color[2] = 255;
         }
-        if (out[3] >= 0.5) {
+        if (target == 3) {
           color[0] = 0;
           color[1] = 255;
           color[2] = 0;

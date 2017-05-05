@@ -17,6 +17,10 @@ This is our project for the [And YOU can Help Fight Fires!](https://2017.spaceap
 
 You can check out the main project page on the NASA Space Apps CMS [at this link](https://2017.spaceappschallenge.org/challenges/warning-danger-ahead/and-you-can-help-fight-fires/teams/shc/project).
 
+This is our 30-second project video, click on the image below to open the YouTube link
+
+[![demo video](https://img.youtube.com/vi/CHglLA2fzqI/0.jpg)](https://www.youtube.com/watch?v=CHglLA2fzqI)
+
 ### General description
 Every year there are a lot of wild fires in the world, and they cause a lot of damage (both in term of deaths and economic loss). Take a look [here](http://www.nfpa.org/news-and-research/fire-statistics-and-reports/fire-statistics/fires-in-the-us) for example.
 

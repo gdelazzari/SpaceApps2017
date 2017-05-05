@@ -22,7 +22,7 @@
 
 #define PIXEL(i, w, h, x, y)    ((unsigned char*) (i + (((y) * (w) * (N)) + ((x) * (N)))))
 
-unsigned char* crop(unsigned char* image, int sx, int sy, int w, int h, unsigned char* result) {
+void crop(unsigned char* image, int sx, int sy, int w, int h, unsigned char* result) {
   for (int x = sx; x < (sx + w); x++) {
     for (int y = sy; y < (sy + h); y++) {
       for (int c = 0; c < 3; c++) {
